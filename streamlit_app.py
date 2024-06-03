@@ -84,7 +84,7 @@ if st.checkbox("Show Feature Importance"):
     import matplotlib.pyplot as plt
     importances = model.feature_importances_
     indices = np.argsort(importances)[::-1]
-    plt.figure()
+    plt.figure(figsize=(12,10)
     plt.title("Feature importances")
     plt.bar(range(len(importances)), importances[indices], align="center")
     plt.xticks(range(len(importances)), [feature_names[i] for i in indices], rotation=45)
