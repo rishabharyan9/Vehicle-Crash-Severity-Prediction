@@ -6,7 +6,7 @@ import numpy as np
 model = joblib.load('xgb_classifier.joblib')
 
 # Define the app
-st.title("XGBoost Classifier Deployment with Streamlit")
+st.title("XGBoost Classifier Deployment ")
 
 # Create input fields for the features
 st.header("Input Features")
