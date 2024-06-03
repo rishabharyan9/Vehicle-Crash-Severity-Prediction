@@ -71,6 +71,12 @@ if st.button("Predict"):
     prediction = model.predict(inputs)
     prediction_proba = model.predict_proba(inputs)
     st.write(f"Predicted Class: {prediction[0]}")
+    if prediction[0]==0:
+	    st.write("Severe")
+    if prediction[0]==1:
+	    st.write("Moderate")
+    if prediction[0]==2:
+	    st.write("Minor")
     st.write(f"Prediction Probability: {prediction_proba[0]}")
 
 # Optional: Display feature importance or other model details
