@@ -1,5 +1,6 @@
 # Vehicle-Crash-Severity-Prediction
 Predictive model for vehicle crash severity classification using machine learning techniques. Enhancing road safety through data-driven insights.
+ https://vehicle-crash-severity-prediction-arluxlphvqmj7efimvymiu.streamlit.app/
 
 # Overview
 
